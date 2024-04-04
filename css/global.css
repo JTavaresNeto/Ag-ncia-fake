@@ -8,3 +8,71 @@
   --cor-principal01: #180f4a;
   --cor-principal02: #ff2978;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--fonte-padrao);
+}
+
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+.navegacao {
+  height: 100px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.logo {
+  padding: 20px;
+  flex: 20%;
+  margin-left: 10%;
+}
+
+.logo h1 {
+  font-family: var(--font-logo);
+  font-size: 2rem;
+  color: var(--cor-principal01);
+  text-align: left;
+}
+
+.menu {
+  padding: 16px;
+  flex: 60%;
+  text-align: right;
+  margin-right: 10%;
+}
+
+.menu a {
+  padding: 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: var(--cor-principal01);
+  margin-left: 20px;
+}
+
+.menu a:hover {
+  color: var(--cor-principal02);
+  border-top: 4px solid var(--cor-principal01);
+}
+
+.menu a.fale-conosco {
+  margin-right: 0;
+  background-color: var(--cor-principal01);
+  color: white;
+  border-radius: 5px;
+  padding: 10px 30px;
+}
+
+.menu a.fale-conosco:hover {
+  background-color: var(--cor-principal02);
+  border: none;
+}
