@@ -1,0 +1,29 @@
+footer {
+  background-image: linear-gradient(to bottom, var(--cor-principal01), black);
+  border-top: 4px solid var(--cor-principal02);
+  margin-top: 100px;
+}
+
+.logo-rodape {
+  text-align: center;
+}
+
+.logo-rodape h1 {
+  margin-top: 150px;
+  margin-bottom: 20px;
+  font-family: var(--font-logo);
+  font-size: 34px;
+  color: white;
+}
+
+.logo-rodape p {
+  color: white;
+  margin-bottom: 100px;
+}
+
+span {
+  display: block;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}

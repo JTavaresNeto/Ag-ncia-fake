@@ -34,3 +34,22 @@ section h2 {
 .card h3 {
   margin-bottom: 10px;
 }
+
+.card:hover {
+  background-color: var(--cor-principal02);
+  color: white;
+}
+
+.card:hover img,
+.card:hover .texto-card {
+  display: none;
+}
+
+.card:hover .texto-oculto {
+  display: block;
+}
+
+.texto-oculto {
+  display: none;
+}
+
