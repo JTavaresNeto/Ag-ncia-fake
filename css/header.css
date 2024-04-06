@@ -1,6 +1,5 @@
 .principal {
-  height: 600px;
-  background-color: gray;
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,13 +7,40 @@
 }
 
 .header-texto {
-  border: 1px solid rebeccapurple;
   flex: 40%;
   margin-left: 10%;
 }
 
+.header-texto p {
+  margin-top: 20px;
+  text-align: left;
+  color: gray;
+}
+
+.header-texto a {
+  display: inline-block;
+  text-transform: uppercase;
+  background-color: var(--cor-principal02);
+  color: white;
+  padding: 16px 20px;
+  text-decoration: none;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.texto-generico {
+  color: var(--cor-principal01);
+  font-size: 1.3em;
+  letter-spacing: 0.7em;
+  font-weight: bold;
+}
+
+.agenciafake {
+  font-size: 80px;
+  color: var(--cor-principal01);
+}
+
 .header-imagem {
-  border: 1px solid blue;
   flex: 40%;
   margin-right: 10%;
 }
