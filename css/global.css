@@ -59,6 +59,7 @@ body {
   font-size: 20px;
   color: var(--cor-principal01);
   margin-left: 20px;
+  transition: all 0.2s;
 }
 
 .menu a:hover {
@@ -72,6 +73,7 @@ body {
   color: white;
   border-radius: 5px;
   padding: 10px 30px;
+  transition: all 0.3s;
 }
 
 .menu a.fale-conosco:hover {
