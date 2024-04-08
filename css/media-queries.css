@@ -1,0 +1,116 @@
+@media screen and (max-width: 576px) {
+  #responsivo-navegacao {
+    position: relative;
+    width: 90vw;
+    margin: 5%;
+    text-align: center;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .logo {
+    margin: 0;
+    text-align: center;
+  }
+
+  div.logo h1 {
+    text-align: center;
+  }
+
+  .principal {
+    padding-top: 50px;
+  }
+
+  .header-texto {
+    flex: 100%;
+    margin: 5%;
+    text-align: center;
+  }
+
+  .header-texto p {
+    text-align: center;
+  }
+
+  .header-imagem {
+    flex: 100%;
+    margin: 5%;
+    text-align: center;
+  }
+
+  .card {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  #responsivo-navegacao {
+    position: relative;
+    width: 90vw;
+    margin: 5%;
+    text-align: center;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  div.logo h1 {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #responsivo-navegacao {
+    position: relative;
+    width: 90vw;
+    margin: 5%;
+    text-align: center;
+  }
+
+  .logo {
+    flex: 100%;
+    font-size: 1.5rem;
+  }
+
+  div.logo h1 {
+    text-align: center;
+  }
+
+  div.menu {
+    flex: 100%;
+    text-align: center;
+  }
+
+  div.menu a.fale-conosco {
+    padding: 15px;
+  }
+
+  .card {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  #responsivo-navegacao {
+    position: relative;
+    width: 90vw;
+    margin: 5%;
+    text-align: center;
+  }
+
+  div.menu {
+    flex: 100%;
+  }
+
+  div.logo h1 {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .card {
+    width: 100%;
+  }
+}
+
